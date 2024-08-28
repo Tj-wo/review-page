@@ -1,0 +1,52 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+  }
+  
+  #maindiv {
+    width: 40%;
+    margin: 20% auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 3px solid #141519;
+    text-align: left;
+    background-color: hsl(213, 19%, 18%);
+  }
+  
+  button {
+    background-color: #fc7613;
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+  }
+  .dot {
+    height: 37px;
+    width: 37px;
+    background-color: #262f38;
+    border-radius: 50%;
+    display: inline-block;
+    align-content: center;
+    box-shadow: 0 0 10px hsl(216, 12%, 8%);
+    color: #8e96a1;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #rating .dot:hover{
+    background-color: #fc7613;
+    color: black;
+  }
+
+  button:hover{
+    background-color: white;
+  }
+
+
+  #rating .dot.selected {
+    background-color:#ffffff;
+  }
